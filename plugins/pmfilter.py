@@ -2040,15 +2040,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Trexofficialhub")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/+rLmQg094DcU3YmVl")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/TrexRequests"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+OXOBPSHFpQhjZWNl")
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/MovieCleeps_Request"),
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+rLmQg094DcU3YmVl")
        ],[
-            InlineKeyboardButton('• Support •', url="https://t.me/TrexSupportchatBot"),
-            InlineKeyboardButton('• 18+ ᴍᴏᴠɪᴇ •', url="https://t.me/+75bJ7P63RAtiMjJl")
+            InlineKeyboardButton('• ɪɴsᴛᴀ ᴠɪʀᴀʟ ᴍᴏᴠɪᴇ •', url="https://t.me/+cs4ugBfwiB0xMGJl"),
+            InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url="https://t.me/MovieCleepsHelp_bot")
        ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ •', url="https://t.me/+rUz6lcdsab01ZDJl")
+            InlineKeyboardButton('• ʙᴀᴄᴋᴜᴘ •', url="https://t.me/+DS6sX050uBwwMGE1")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
