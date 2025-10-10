@@ -38,9 +38,9 @@ async def start(client, message):
                     InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/Trexowner"),
-                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https:/t.meTrexSupportchatBot')
+                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/MovieCleepsHelp_bot')
                 ],[
-                    InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/+OXOBPSHFpQhjZWNl")
+                    InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/+rLmQg094DcU3YmVl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
