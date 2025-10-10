@@ -166,7 +166,7 @@ if 'DYNO' in environ:
     APP_NAME = environ.get('APP_NAME')
 else:
     ON_HEROKU = False
-BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'weekly-kippie-technik659-053cab2f.koyeb.app'))
+BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'psychiatric-conny-jobpronews-5b0bcbc8.koyeb.app/'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
 URL = "https://{}/".format(FQDN)
 # ✅ PORT define karo (agar env me nahi mila to 8080 default)
