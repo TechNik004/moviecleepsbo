@@ -40,16 +40,16 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://envs.sh/Wdj.jpg')).split()  # Fsu
 # ============================
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6667067260').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002372316135').split()]  # Channel id for auto indexing (make sure bot is admin)
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003041898413'))  # Log channel id (make sure bot is admin)
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002980876670'))  # Bin channel id (make sure bot is admin)
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1003070438939'))  # Notification of those who verify will be sent to your channel
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003041898413'))  # Premium logs channel id
-auth_channel = environ.get('AUTH_CHANNEL', '-1001602841052')  # Channel/Group ID for force sub (make sure bot is admin)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003027241472'))  # Log channel id (make sure bot is admin)
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003027241472'))  # Bin channel id (make sure bot is admin)
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002882008991'))  # Notification of those who verify will be sent to your channel
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003027241472'))  # Premium logs channel id
+auth_channel = environ.get('AUTH_CHANNEL', '-1002378694223')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003045638888').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002291621486')  # Request channel id (make sure bot is admin)
-AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1001602841052').split()]
-MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1001602841052 -1001704159210').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
+AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1002378694223').split()]
+MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002378694223').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
 
 # ============================
@@ -67,7 +67,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://opp:opp@cluster0.xt7unlb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://technik659:8pZAv0q1E4TpzBfW@cluster0.scjdsho.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://trex:trex@cluster0.wbyvtcf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Lucy_files')
@@ -83,26 +83,26 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # Verification Settings
 # ============================
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
-VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 24))  # Add time in hours
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003041898413'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/how_to_verifylink')  # How to open tutorial link for verification
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 12))  # Add time in hours
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003027241472'))  # Log channel id (make sure bot is admin)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+R4o3qZ0nLLE2Mjc1')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '53229e400eba26696058cd2640bd120261864a01')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_verifylink')  # Tutorial video link for opening shortlink website
+SHORTLINK_API = environ.get('SHORTLINK_API', '181feb5a18a1e702e5ccf4caf1cac37ebb607822')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+R4o3qZ0nLLE2Mjc1')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TrexRequests')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/trexofficialhub')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DS6sX050uBwwMGE1')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Trexowner')
-MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+OXOBPSHFpQhjZWNl')
+MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+rLmQg094DcU3YmVl')
 OWNERID = int(os.environ.get('OWNERID', '6667067260'))  # Replace with the actual admin ID
 
 # ============================
@@ -120,13 +120,13 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'sʜᴀʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/TrexSupportchatBot')  # Support group link (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MovieCleepsHelp_bot')  # Support group link (make sure bot is admin)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 DELETE_TIME = int(environ.get("DELETE_TIME", "300"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False) # pm & Group button or link mode (True) / Off (False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True) # pm & Group button or link mode (True) / Off (False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
@@ -137,7 +137,7 @@ INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002372316135 -1002583861689')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))  # PM Search On (True) / Off (False)
 EMOJI_MODE = bool(environ.get('EMOJI_MODE', True))  # Emoji status On (True) / Off (False)
 
