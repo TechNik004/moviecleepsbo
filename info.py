@@ -99,7 +99,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TrexRequests')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovieCleeps_Request')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DS6sX050uBwwMGE1')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/MovieCleepsHelp_bot')
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+rLmQg094DcU3YmVl')
