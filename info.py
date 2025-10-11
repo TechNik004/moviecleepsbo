@@ -38,7 +38,7 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://envs.sh/Wdj.jpg')).split()  # Fsu
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6667067260').split()] # Replace with the actual admin ID(s) to add
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6667067260 5225541255').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002372316135').split()]  # Channel id for auto indexing (make sure bot is admin)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003027241472'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003027241472'))  # Bin channel id (make sure bot is admin)
@@ -178,9 +178,9 @@ else:
     
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'Trexofficialsbot'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'MovieCleeps_bot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'Trexofficials'))
+name = str(environ.get('name', 'MovieCleeps'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
