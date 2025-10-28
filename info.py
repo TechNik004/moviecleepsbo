@@ -92,7 +92,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/bot_verify_video/12')
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '181feb5a18a1e702e5ccf4caf1cac37ebb607822')
+SHORTLINK_API = environ.get('SHORTLINK_API', '53229e400eba26696058cd2640bd120261864a01')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/bot_verify_video/12')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
