@@ -45,7 +45,7 @@ async def save_group(bot, message):
             return
         buttons = [[
                     InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/MovieCleepsHelp_bot'),
-                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/+rLmQg094DcU3YmVl')
+                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='https:/t.me/Moviecleeps_Backup')
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -65,7 +65,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/+rLmQg094DcU3YmVl')
+                                                                           InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/Moviecleeps_Backup')
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
