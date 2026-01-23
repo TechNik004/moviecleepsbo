@@ -2040,10 +2040,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/+rLmQg094DcU3YmVl")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Moviecleeps_Backup")
        ],[
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/MovieCleeps_Request"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/+rLmQg094DcU3YmVl")
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/Moviecleeps_Backup")
        ],[
             InlineKeyboardButton('• ɪɴsᴛᴀ ᴠɪʀᴀʟ ᴍᴏᴠɪᴇ •', url="https://t.me/+cs4ugBfwiB0xMGJl"),
             InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url="https://t.me/MovieCleepsHelp_bot")
