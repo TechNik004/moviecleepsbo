@@ -2043,7 +2043,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Moviecleeps_Backup")
        ],[
             InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/MovieCleeps_Request"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/Moviecleeps_Backup")
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/TheAllCollection")
        ],[
             InlineKeyboardButton('• ɪɴsᴛᴀ ᴠɪʀᴀʟ ᴍᴏᴠɪᴇ •', url="https://t.me/+cs4ugBfwiB0xMGJl"),
             InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url="https://t.me/MovieCleepsHelp_bot")
